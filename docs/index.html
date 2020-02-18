@@ -1,0 +1,28 @@
+---
+layout: default
+title: "Git 102"
+lang: en
+---
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <h2>Must Read!</h2>
+        <ul>
+            <li>
+                <a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener noreferrer">
+                    The Git Book
+                </a>
+            </li>
+        </ul>
+
+        <h2>Docs</h2>
+        <ul>
+            {% for post in site.posts reversed %}
+            <li>
+                <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+

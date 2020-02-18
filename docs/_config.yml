@@ -1,0 +1,28 @@
+title: Git 102 - Practical basics
+email: gchoy@vmware.com
+description: Git 102 docs.
+
+baseurl: "/git-102"
+url: "https://github.com/gchoy-vmware/git-102"
+github_username: "gchoy-vmware"
+
+github_owner_name: gchoy-vmware
+github_repository_url: "https://github.com/gchoy-vmware/git-102"
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-modernist
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
