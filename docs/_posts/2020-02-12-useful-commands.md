@@ -10,7 +10,8 @@ I could give pages of commands but let's focus on a handful that you'll probably
 
 ```bash
 $> git rm --cached
-# Remove the file from your staging area (un-track) but keep the file in your working tree (your local disk)
+# Remove the file from your staging area (un-track) but keep the file in your 
+# working tree (your local disk)
 # Example use-case is if you accidentally added a binary file
 
 $> git log --oneline [--graph]
@@ -23,5 +24,5 @@ $> git log --stat
 $> git commit --amend [--no-edit]
 # Amend your previous commit with your "Staged" changes
 # Side-effects
-# General rule: do not amend commits you've pushed and that you are not the author of
+# General rule: do not amend commits you've pushed and that you're not the author of
 ```

@@ -26,7 +26,11 @@ The easiest method is to download the Jekyll image for Docker:
 
 ```ps
 PS> cd docs
-PS> docker run --rm --label=jekyll --volume=${pwd}:/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll serve --force_polling
+PS> docker run --rm `
+        --label=jekyll `
+        --volume=${pwd}:/srv/jekyll -it -p 4000:4000 `
+        jekyll/jekyll jekyll serve `
+        --force_polling
 ```
 
 Or simply execute `.\RunDocker.ps1` in the `docs` folder.
